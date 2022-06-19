@@ -21,22 +21,20 @@ int main()
         for (i = 0; i < brRed; i++) {
             //petlja za razmake u retku
             for (j = i; j < brRed - 1; j++) 
-                printf("   ");
+                printf("  ");
             
             //petlja za uzlazni dio niza u retku
             for (k = sirina - 2 * i; k <= sirina - i; k++) {
                 printf("%d", k);
                 if (i != 0)
-                    printf(", ");
+                    printf(",");
             }
 
             //petlja nakon maximuma za silazni dio niza u retku
             for (k = sirina - i - 1; k >= sirina - 2 * i; k--) {
                 printf("%d", k);
                 if (k != (sirina - 2*i))
-                    printf(", ");
-                else
-                    printf(" ");
+                    printf(",");
             }
 
             printf("\n");
