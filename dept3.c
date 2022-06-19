@@ -6,7 +6,7 @@ int main()
     int sirina;
     int brRed;
  
-    printf("Unesite sirinu Vase piramide\nSirina mora biti neparan broj znamenaka.\n");
+    printf("Unesite sirinu Vase piramide.\nSirina mora biti neparan broj znamenaka.\n");
     scanf_s("%d", &sirina);
 
     if (sirina % 2 == 0) {
